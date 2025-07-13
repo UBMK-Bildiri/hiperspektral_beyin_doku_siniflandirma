@@ -6,9 +6,9 @@ Hiperspektral görüntülerde beyin doku sınıflandırmasına ait bir çalışm
     
   3 Kampanyadan elde edilen hasta görüntülerinin hepsi işlenerek her bir hasta için 4 adet image dosyası oluşturur.
   - (**calibrated_raw**) Öncelikle siyah-beyaz kalibrasyonu yapılan ve bant sayısı 826 dan 644 e indirgenen bir image dosyası oluşturulur.
-  - (**calibrated_pca_128**) 644 banta düşürülmüş kalibre image dan sırası ile her 5 bantın pca sı alınarak 1 bant elde edilir. Toplamda 128 bantlık yeni bi image oluşturulur.
-  - (**calibrated_par_128**) 644 banta düşürülmüş kalibre image dan sırası ile her 5. bant alınarak 1 bant elde edilir. Toplamda 128 bantlık yeni bi image oluşturulur.
-  - (**calibrated_ort_128**) 644 banta düşürülmüş kalibre image dan sırası ile her 5 bantın ortalaması alınarak 1 bant elde edilir. Toplamda 128 bantlık yeni bi image oluşturulur.
+  - (**calibrated_pca_128**) 644 banta düşürülmüş kalibre image dan sırası ile her 5 bantın pca sı alınarak 1 bant elde edilir. Toplamda 128 bantlık yeni bir image oluşturulur.
+  - (**calibrated_par_128**) 644 banta düşürülmüş kalibre image dan sırası ile her 5. bant alınarak 1 bant elde edilir. Toplamda 128 bantlık yeni bir image oluşturulur.
+  - (**calibrated_ort_128**) 644 banta düşürülmüş kalibre image dan sırası ile her 5 bantın ortalaması alınarak 1 bant elde edilir. Toplamda 128 bantlık yeni bir image oluşturulur.
 
 **yogunluk_grafik.jpynb** dosyası işlenmiş olan hasta imagelarından sınıfların ortalama ve varyanslı spektral imza grafiklerini almak için kullanılır.
 
