@@ -4,7 +4,8 @@ Hiperspektral görüntülerde beyin doku sınıflandırmasına ait bir çalışm
   
   **hyper_isleme_raw.jpynb** dosyası Ham olan hyperspectral görüntüleri kalibre ederek belirtilen farklı bir klasöre kopyalayıp kullanıma hazır hale getirir.
     
-  3 Kampanyadan elde edilen hasta görüntülerinin hepsi işlenerek her bir hasta için 4 adet image dosyası oluşturur.
+  Belirlenen hasta görüntüleri işlenerek her bir hasta için 4 adet image dosyası oluşturulur.
+  
   - (**calibrated_raw**) Öncelikle siyah-beyaz kalibrasyonu yapılan ve bant sayısı 826 dan 644 e indirgenen bir image dosyası oluşturulur.
   - VK1 (**calibrated_ort_128**) 644 banta düşürülmüş kalibre image dan sırası ile her 5 bantın ortalaması alınarak 1 bant elde edilir. Toplamda 128 bantlık yeni bir image oluşturulur.
   - VK2 (**calibrated_par_128**) 644 banta düşürülmüş kalibre image dan sırası ile her 5. bant alınarak 1 bant elde edilir. Toplamda 128 bantlık yeni bir image oluşturulur.
@@ -12,4 +13,4 @@ Hiperspektral görüntülerde beyin doku sınıflandırmasına ait bir çalışm
   
 **yogunluk_grafik.jpynb** dosyası işlenmiş olan hasta imagelarından sınıfların ortalama ve varyanslı spektral imza grafiklerini almak için kullanılır.
 
-**models_trains_validates.jpynb** dosyası tasarlanan 3 adet modeli eğitime hazırlama, eğitme ve çıktılarını almak için kullanılır. Modeller tek bir hasta/kalibre image için eğitilebileceği fonksiyonlarla birlikte toplu olarakta eğitebileceği fonksiyonları içerir. Eğitilen modeller üzerinde tek tek veya topluca hasta image doğrulaması yapan fonksiyonlarda mevcuttur.
+**models_trains_validates.jpynb** dosyası tasarlanan modeli eğitime hazırlama, eğitme ve çıktılarını almak için kullanılır. Modeller tek bir hasta/kalibre image için eğitilebileceği fonksiyonlarla birlikte toplu olarakta eğitebileceği fonksiyonları içerir. Eğitilen modeller üzerinde tek tek veya topluca hasta image doğrulaması yapan fonksiyonlarda mevcuttur.
